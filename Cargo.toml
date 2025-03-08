@@ -1,0 +1,16 @@
+[package]
+name = "quantum_cryptanalysis"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pqcrypto-ntru = "0.7"       # Quantum-resistant cryptography
+pqcrypto-traits = "0.3"
+rand = "0.8"                # Random number generator
+ndarray = "0.15"            # AI computations
+tch = "0.8"                 # PyTorch bindings for AI model
+rayon = "1.5"               # Parallel computing
+serde = { version = "1.0", features = ["derive"] } # Serialization
+serde_json = "1.0"
+quantum_computing = "0.1"   # Quantum computing simulations
+
